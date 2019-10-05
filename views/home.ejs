@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OAuth tutorial</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <% if (user) { %>
+      <li>
+        <a href="/auth/logout">Logout</a>
+      </li>
+      <% } else { %>
+      <li>
+        <a href="/auth/login">Login</a>
+      </li>
+      <% } %>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/profile">Profile</a>
+      </li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>OAuth Tutorial</h1>
+    <h2>Home</h2>
+  </header>
+
+  <main>
+    <p>Probably the best OAuth tutorial</p>
+  </main>
+</body>
+</html>
